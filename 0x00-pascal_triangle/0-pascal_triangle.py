@@ -13,7 +13,7 @@ def pascal_triangle(n):
             pascal_triangle (list): Binary string of the sum of a and b
     '''
     pascal_triangle = []
-    
+
     if n <= 0:
         return pascal_triangle
 
