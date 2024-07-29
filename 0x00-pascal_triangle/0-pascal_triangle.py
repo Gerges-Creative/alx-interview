@@ -12,6 +12,11 @@ def pascal_triangle(n):
         Returns:
             pascal_triangle (list): Binary string of the sum of a and b
     '''
+    pascal_triangle = []
+    
+    if n <= 0:
+        return pascal_triangle
+
     pascal_triangle = [[1]]
 
     for i in range(n - 1):
